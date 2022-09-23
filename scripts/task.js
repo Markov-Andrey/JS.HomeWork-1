@@ -44,12 +44,24 @@ let width, height, SPryam;
 width = 10;
 height = 23;
 SPryam = width * height;
-console.log(a0 + 'При высоте прямоугольника = ' 
-+ height + 'см и ширине = ' + width 
+console.log(a0 + 'При высоте прямоугольника ' 
++ height + 'см и ширине ' + width 
 + 'см, площадь прямоугольника = ' + SPryam + 'кв.см');
 //Задание 4
 console.log('Задание 4');
 let VCilindra;
 VCilindra = Math.PI * Math.pow((a7/2), 2) * 10;
-console.log(a0 + 'При высоте цилиндра = 10м и диаметре = ' + a7 
-+ 'м, объем цилиндра = ' + VCilindra.toFixed(2) + 'куб.м');
+console.log(a0 + 'При высоте цилиндра = 10м и диаметре ' + a7 
++ 'м, объем цилиндра ' + VCilindra.toFixed(2) + 'куб.м');
+//Задание 5
+console.log('Задание 5');
+let SKruga = Math.PI * Math.pow(5, 2);
+console.log(a0 + 'При радиусе круга 5см площадь = ' + SKruga.toFixed(2) + 'кв.см');
+//Задание 6
+console.log('Задание 6');
+let ATrap, BTrap, HTrap, STrap;
+ATrap = 5;
+BTrap = 7;
+HTrap = 10;
+STrap = (ATrap+BTrap)/2 * HTrap;
+console.log(a0 + 'При радиусе круга 5см площадь = ' + STrap + 'кв.см');
