@@ -46,4 +46,10 @@ height = 23;
 SPryam = width * height;
 console.log(a0 + 'При высоте прямоугольника = ' 
 + height + 'см и ширине = ' + width 
-+ 'см, площадь прямоугольника = ' + SPryam + 'см2');
++ 'см, площадь прямоугольника = ' + SPryam + 'кв.см');
+//Задание 4
+console.log('Задание 4');
+let VCilindra;
+VCilindra = Math.PI * Math.pow((a7/2), 2) * 10;
+console.log(a0 + 'При высоте цилиндра = 10м и диаметре = ' + a7 
++ 'м, объем цилиндра = ' + VCilindra.toFixed(2) + 'куб.м');
