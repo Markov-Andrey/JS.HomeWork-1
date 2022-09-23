@@ -65,3 +65,12 @@ BTrap = 7;
 HTrap = 10;
 STrap = (ATrap+BTrap)/2 * HTrap;
 console.log(a0 + 'При радиусе круга 5см площадь = ' + STrap + 'кв.см');
+//Задание 7
+console.log('Задание 7');
+let S = 2000000;
+let p = 10 / 1200;
+let n = 60;
+let Pereplata = ((S * p / (1 - Math.pow(1 + p, -n)))*n)-S;
+console.log(a0 + 'При кредите на 5 лет размером ' + S + 'руб. и 10%-ставке переплата составляет ' 
++ Pereplata.toFixed(2) + ' руб.');
+//
