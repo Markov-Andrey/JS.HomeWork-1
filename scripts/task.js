@@ -1,6 +1,7 @@
+//Задание 2
+console.log('Задание 2');
 let a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18;
 a0 = '  ';
-console.log('Задание 2');
 a1 = 5 % 3;
 console.log(a0 + 'a1) ' + '5 % 3 = ' + a1);
 a2 = 3 % 5;
@@ -37,3 +38,12 @@ a17 = false || true;
 console.log(a0 + 'a17) ' + 'false || true = ' + a17);
 a18 = true > 0;
 console.log(a0 + 'a18) ' + 'true > 0 = ' + a18);
+//Задание 3
+console.log('Задание 3');
+let width, height, SPryam;
+width = 10;
+height = 23;
+SPryam = width * height;
+console.log(a0 + 'При высоте прямоугольника = ' 
++ height + 'см и ширине = ' + width 
++ 'см, площадь прямоугольника = ' + SPryam + 'см2');
