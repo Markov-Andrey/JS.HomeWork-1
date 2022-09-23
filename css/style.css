@@ -7,6 +7,10 @@ p {
 	padding: 5px;
 	font-size: 20px;
 }
+div {
+	margin: 5px;
+	border: 1px solid black;
+}
 .complete {
 	display: inline-block;
 	background-color: green;
@@ -15,8 +19,18 @@ p {
 	color: white;
 }
 h1 {
-	display: inline-block;
-	margin: 3px 15px;
+	text-align: center;
+	display: block;
+	margin: 3px 40%;
 	padding: 2px 15px;
 	background-color: #5c98ff;
+}
+table {
+	margin-left: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td {
+	padding: 1px;
+	border: 1px solid black;
 }
